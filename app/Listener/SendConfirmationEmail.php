@@ -28,6 +28,7 @@ class SendConfirmationEmail implements ShouldQueue
      */
     public function handle(PaymentComplete $event)
     {
+        //This Listener sends an email with the payment details after it's confirmed
         Mail::to($event->payment->client)->send(new PaymentCompleted($event->payment));
     }
 }
