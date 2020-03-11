@@ -1,7 +1,7 @@
 ## About This Example
 
 This example shows how to use jobs and events in laravel.
-Este ejemplo consiste en una simulación de un sistema de pagos haciendo uso de 'Jobs en cola', 'Events', 'Listeners' y Mails de Laravel.
+This example is a simulation of a payment system using [Jobs](https://laravel.com/docs/6.x/queues), [Mails](https://laravel.com/docs/6.x/mail) and [Events](https://laravel.com/docs/6.x/events).
 
 ## Requirements
 
