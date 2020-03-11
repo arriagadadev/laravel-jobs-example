@@ -25,7 +25,7 @@ This example is a simulation of a payment system using [Jobs](https://laravel.co
 11. Run `php artisan key:generate`
 12. Run `php artisan migrate --seed` to create the necessary tables
 13. Run `php artisan serve`
-14. Now the project is running in 'http: // localhost: 8000'
+14. Now the project is running in 'http://localhost: 8000'
 
 ## License
 
