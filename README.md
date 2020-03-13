@@ -77,9 +77,10 @@ As you can see, updating the payment and use a service is what would come to be 
 9. Copy the file '.env.example' and paste it in the same folder with the name '.env'
 10. Add the connection information to your database, your mail system and your queue system in the file '.env'
 11. Run `php artisan key:generate`
-12. Run `php artisan migrate --seed` to create the necessary tables
-13. Run `php artisan serve`
-14. Now the project is running in 'http://localhost:8000'
+12. Edit the file located in database/seeds/ClientsTableSeeder.php to modify the default user created in the seeding (use your own email to see the email notification)
+13. Run `php artisan migrate --seed` to create the necessary tables and the default user
+14. Run `php artisan serve`
+15. Now the project is running in 'http://localhost:8000'
 
 ## License
 
